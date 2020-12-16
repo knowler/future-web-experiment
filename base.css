@@ -1,0 +1,32 @@
+:root {
+  --light-bg: #dadcef;
+  --dark-bg: #121218;
+
+  --light-text: #343434;
+  --dark-text: #dadcef;
+}
+
+*,
+::before,
+::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, sans-serif;
+}
+
+@media (prefers-color-scheme: light) {
+  body {
+    background-color: var(--light-bg);
+    color: var(--light-text);
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: var(--dark-bg);
+    color: var(--dark-text);
+  }
+}
+

@@ -1,0 +1,6 @@
+{
+  "name": "Future Web App",
+  "short_name": "Future Web",
+  "start_url": "/",
+  "display": "standalone"
+}
